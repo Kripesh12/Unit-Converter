@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    height: 100vh;
+}
+
+.box-main{
+    width: 550px;
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.box-top{
+    margin: 0px;
+    width: 550px;
+    height: 310px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+   
+    
+}
+
+.box-top > h2{
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+input{
+    height: 80px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    margin-top: 30px;
+    outline: none;
+}
+::placeholder{
+    color: white;
+    opacity: 0.3;
+}
+.box-top > p{
+    font-weight: 800;
+    color: white;
+    font-size: 98px;
+    margin-top: 30px;
+}
+
+.box-bottom{
+    width: 550px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 38px 0px;
+    background-color:  #1F2937;
+}
+
+.topic > h4{
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.topic > p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 15px;
+    color: #D2D2D2;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RMOVES INPUT INCREMENTOR */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
